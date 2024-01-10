@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elle Hacks - Canada's First All Female Hackathon</title>
+    <link rel="icon" href="./assets/ellehacksico.ico">
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery for email forms -->
+    <script src="jquery-3.2.1.min.js"></script>
+    <!-- Serialize Object to send data to google script -->
+    <script src="jquery.serialize-object.min.js"></script>
+</head>
+<header>
+    <div class="nav-bar">
+        <div class="nav-grid">
+            <div>
+                <a href="#"><img class="nav-img" src="./assets/nav-icon.png" alt="home"></a>
+            </div>
+            <div class="nav-menu">
+                <div>
+                    <a class="nav-link" href="#about"><h4 class="nav-title">ABOUT</h4></a>
+                </div>
+                <div>
+                    <a class="nav-link" href="#join-us"><h4 class="nav-title">JOIN US</h4></a>
+                </div>
+                <div>
+                    <a class="nav-link" href="#recap"><h4 class="nav-title">RECAP</h4></a>
+                </div>
+                <div>
+                    <a class="nav-link" href="#schedule-faq"><h4 class="nav-title">SCHEDULE</h4></a>
+                </div>
+                <div>
+                    <a class="nav-link" href="#faq"><h4 class="nav-title">FAQ</h4></a>
+                </div>
+                <div>
+                    <a class="nav-link" href="#sponsor"><h4 class="nav-title">SPONSORS</h4></a>
+                </div>
+                <div>
+                    <a class="nav-link" href="#event-section"><h4 class="nav-title">LOCATION</h4></a>
+                </div>
+                <div>
+                    <a class="nav-link" href="#contact"><h4 class="nav-title">CONTACT US</h4></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+<!--<a id="mlh-trust-badge"-->
+   <!--style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"-->
+   <!--href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=white"-->
+   <!--target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg"-->
+                        <!--alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>-->
+<div class="title-section">
+    <!-- Corner Lines -->
+    <!-- <div class="corner-lines">
+      <svg height="100%" width="50%">
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#F38B94;stop-opacity:1" />
+              <stop offset="50%" style="stop-color:#FBCDB8;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <line x1="-30" y1="150" x2="150" y2="-30" style="stroke:url(#grad1);stroke-width:30" />
+          <line x1="-30" y1="220" x2="220" y2="-30" style="stroke:url(#grad1);stroke-width:30" />
+        </svg>
+      <svg height="210" width="49%" transform="scale(-1,-1)" class="flipped-safari">
+          <line x1="-30" y1="150" x2="150" y2="-30" style="stroke:url(#grad1);stroke-width:30" />
+          <line x1="-30" y1="220" x2="220" y2="-30" style="stroke:url(#grad1);stroke-width:30" />
+        </svg>
+    </div> -->
+    <!-- Title Grid -->
+    <div class="grid fullscreen horz-center">
+        <div class="title-col">
+            <img src="./assets/logo.png" class="title-logo" alt="">
+            <h2 class="sub-title">Canada's First All Female Hackathon</h2>
+            <svg height="10" width="100%">
+                <line x1="10" y1="0" x2="500" y2="1" style="stroke:url(#grad1);stroke-width:10;margin:0 auto;"/>
+            </svg>
+            <!--<h3 class="title-date">February 2 - 4,<br>York University</h3>-->
+            <!-- <div class="grid center-items">
+              <div class="col">
+                <form class="sign-up-form" action="index.html" method="post" id="email-form">
+                  <input type="text" name="email" placeholder="email@domain.com" class="sign-up-input-text">
+                </form>
+              </div>
+              <div class="col">
+                <button class="sign-up-form-button" id="submit-form" type="button" name="button">Send me updates</button>
+              </div>
+            </div> -->
+            <!-- OLD EMAIL REGISTRATION FORM -->
+            <!-- <form class="sign-up-form" action="index.html" method="post" id="email-form">
+            <div class="grid center-items">
+              <div class="col">
+                  <input type="text" name="email" placeholder=" email@domain.com" class="sign-up-input-text">
+              </div>
+              <div class="col">
+                <input class="sign-up-form-button" id="submit-form" type="submit" value="Send Me Updates">
+              </div>
+            </div>
+            </form> -->
+            <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSddF1umDamcCotWuBioazfbWqxqZRupVE_W8wT1i2DYJlNN5Q/viewform"><button class="sign-up-form-button-disabled" disabled>REGISTRATION CLOSED</button></a>-->
+            <!-- <h4 class="deadline">Deadline to register is January 22nd, 2018!</h4> -->
+            <div class="promo-box">
+                <img class="promo-image" src="./assets/ada-crop.png">
+                <div class="promo-text">
+                    <h4>ELLEHACKS 2019</h4>
+                    <p>February 1<sup>st</sup> – 3<sup>rd</sup></p>
+                    <a id="open-popup" href="http://eepurl.com/dLF6Yk" target="popup"
+                       onclick="window.open('http://eepurl.com/dLF6Yk','popup','width=800,height=500'); return false;">Sign
+                        up to our newsletter</a>
+                </div>
+
+            </div>
+            <h4 class="questions">Questions? Contact us at <a href="mailto:info@ellehacks.com">info@ellehacks.com</a>
+            </h4>
+            <div class="social-box">
+                <a href="https://www.facebook.com/ElleHacks-364051890675123/"><img
+                        src="./assets/icons/facebook-icon.png" class="social-favicons" alt=""></a>
+                <a href="https://twitter.com/ellehacks"><img src="./assets/icons/twitter-icon.png"
+                                                             class="social-favicons" alt=""></a>
+                <a href="https://www.instagram.com/ellehacks/"><img src="./assets/icons/insta-icon.png"
+                                                                    class="social-favicons" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Mission Grid -->
+<div class="our-mission-section background-grad" id="about">
+    <div class="grid center-items mission-grid">
+        <div class="col align-self-top">
+            <h3 class="mission-sub-header">Canada's First Student-Run All-Female Hackathon</h3>
+        </div>
+        <div class="col-2">
+            <h2 class="heading">Our Mission<span class="backslash">/</span></h2>
+            <p class="mission-text">
+                The role of the hackathon: ElleHacks is a women-only* hackathon taking place in the <span
+                    class="mission-h4">Lassonde School of Engineering</span>, North York. It is organized by students
+                with background in STEM fields. We welcome women of
+                all experience levels from a variety of technical and creative disciplines to participate in a
+                collaborative, technical project in an inclusive and safe space.
+            </p>
+            <br>
+            <h4 class="mission-h3">ElleHacks' secondary goals include:</h4>
+            <ul class="mission-ul" style="transform: translateX(-15px);">
+                <li>
+                    Provide women who are new to software development a welcoming environment in which they can get
+                    their hackathon feet wet, understand that it isn’t a scary place, and that, yes, they DO have the
+                    skills that are useful and necessary to participate in these
+                    types of events.
+                </li>
+                <br>
+                <li>
+                    Allow experienced women developers a chance to mentor up-and-coming developers.
+                </li>
+                <br>
+                <li>
+                    Have project groups walk away from the event with a working prototype for their portfolio,
+                    confidence in themselves, and the desire to participate in future hackathons.
+                </li>
+                <br>
+                <li>
+                    Added Bonus: Groups continue working together to expand their working prototypes.
+                </li>
+            </ul>
+            <p class="mission-text">
+                ElleHacks acknowledges the complicated nature of the word “women,” knowing it may not work for many, and
+                can feel unwelcoming or alienating for some. We recognize the imperfection of language, and we use * to
+                specifically and intentionally include cis
+                women, trans, non-binary, agender, intersex, and queer people.
+            </p>
+        </div>
+    </div>
+     <!--Team Section -->
+    <div class="team-section">
+        <h2 class="heading team-heading">Elle Hacks 2018 Team<span class="backslash-peach">/</span></h2>
+        <div class="grid team-grid">
+            <a class="linkedin" href="https://www.linkedin.com/in/ramonable/">
+                <div class="team-member">
+                    <img class="team-img" src="./assets/team-pictures/ellehacks-team-img-02.png" alt="">
+                    <h4 class="team-name">Ramona Sartipi</h4>
+                    <p class="team-title">Lead Organizer</p>
+                </div>
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/in/yahya-ismail-9036ab92/">
+                <div class="team-member">
+                    <img class="team-img" src="./assets/team-pictures/ellehacks-team-img-03.png" alt="">
+                    <h4 class="team-name">Yahya Ismail</h4>
+                    <p class="team-title">Lead Organizer & External</p>
+                </div>
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/in/jamie-dishy-5ba619b1/">
+                <div class="team-member">
+                    <img class="team-img" src="./assets/team-pictures/ellehacks-team-img-07.png" alt="">
+                    <h4 class="team-name">Jamie Dishy</h4>
+                    <p class="team-title">Director of Marketing</p>
+                </div>
+            </a>
+            <div class="team-member">
+                <img class="team-img" src="./assets/team-pictures/ellehacks-team-img-04.png" alt="">
+                <h4 class="team-name">Keira McLellan</h4>
+                <p class="team-title">Director of Finance</p>
+            </div>
+            <a class="linkedin" href="https://www.linkedin.com/in/mariapaulaforero/">
+                <div class="team-member">
+                    <img class="team-img" src="./assets/team-pictures/ellehacks-team-img-05.png" alt="">
+                    <h4 class="team-name">Maria Paula Forero</h4>
+                    <p class="team-title">Director of Communications</p>
+                </div>
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/in/leenachanthyvong/">
+                <div class="team-member">
+                    <img class="team-img" src="./assets/team-pictures/ellehacks-team-img-01.png" alt="">
+                    <h4 class="team-name">Leena Chanthyvong</h4>
+                    <p class="team-title">Graphic Designer</p>
+                </div>
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/in/nick-maxwell-04a467ba/">
+                <div class="team-member">
+                    <img class="team-img" src="./assets/team-pictures/ellehacks-team-img-08.jpg" alt="">
+                    <h4 class="team-name">Nick Maxwell</h4>
+                    <p class="team-title">Director of Media</p>
+                </div>
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/in/connordear/">
+                <div class="team-member">
+                    <img class="team-img" src="./assets/team-pictures/ellehacks-team-img-06.png" alt="">
+                    <h4 class="team-name">Connor Dear</h4>
+                    <p class="team-title">Web Developer</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- Join Us Grid -->
+<div class="join-us-section" id="join-us">
+    <h2>Join Us<span class="backslash">/</span></h2>
+    <div class="grid center-items">
+        <div class="col">
+            <div class="">
+                <img class="apply-img" src="./assets/icons/hackathon-icon.png" alt="">
+            </div>
+            <h4 class="join-us-subheader">HACKATHON</h4>
+            <p class="join-us-p">
+                Come out and attend our event! Apply using the link below before the deadline (January 22nd)!
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSddF1umDamcCotWuBioazfbWqxqZRupVE_W8wT1i2DYJlNN5Q/viewform">
+                <button class="sign-up-form-button-disabled" type="button" name="button" disabled>Closed</button>
+            </a>
+        </div>
+        <div class="col apply-three-mid">
+            <img class="apply-img" src="./assets/icons/volunteer-icon.png" alt="">
+            <h4 class="join-us-subheader">VOLUNTEER</h4>
+            <p class="join-us-p">
+                Want to help out? Apply here and we’ll set you up with a task! Free T-shirts for Volunteers.
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdg625oODzMUOirZbU3gBVUCXovky1lyw8_CyuG_BDMSIKW4w/viewform">
+                <button class="sign-up-form-button" type="button" name="button" disabled>Coming soon</button>
+            </a>
+        </div>
+        <div class="col">
+            <img class="apply-img" src="./assets/icons/mentor-icon.png" alt="">
+            <h4 class="join-us-subheader">MENTOR</h4>
+            <p class="join-us-p">
+                Do you have knowledgeable information about tech and is eager to teach? Let us know!
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLPRlLOcj_X6F-EcYwIYq1LCNyrrTmhAVTL4Z9ZT0bHdUsMw/viewform">
+                <button class="sign-up-form-button" type="button" name="button" disabled>Coming soon</button>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- Recap Section -->
+<!-- width="560" height="315" -->
+<div class="recap-section" id="recap">
+    <h2>Last Year's Recap<span class="backslash">/</span></h2>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/pxRG7r7bbxA" frameborder="0" gesture="media" allow="encrypted-media"
+                allowfullscreen></iframe>
+    </div>
+    <div class="grid">
+        <div class="col">
+            <img class="recap-img" src="./assets/recap-imgs/recap-1.jpg" alt="">
+            <img class="recap-img" src="./assets/recap-imgs/recap-2.jpg" alt="">
+        </div>
+        <div class="col">
+            <img class="recap-img" src="./assets/recap-imgs/recap-3.jpg" alt="">
+            <img class="recap-img" src="./assets/recap-imgs/recap-4.jpg" alt="">
+        </div>
+        <div class="col">
+            <img class="recap-img" src="./assets/recap-imgs/recap-5.jpg" alt="">
+            <img class="recap-img" src="./assets/recap-imgs/recap-6.png" alt="">
+        </div>
+    </div>
+    <a href="https://www.facebook.com/pg/ellehacks/photos/">
+        <button class="sign-up-form-button" type="button" name="button">Click for more!</button>
+    </a>
+</div>
+<!-- Schedule Section -->
+<div class="schedule-section background-grad" id="schedule-faq">
+    <div class="grid schedule-grid">
+        <div class="col-3">
+            <h2>Schedule<span class="backslash">/</span></h2>
+            <h3 class="schedule-subheader">Events <span style="color:#FF0049;">&bull;</span> / Food <span
+                    style="color:#00FF00;">&bull;</span> / Workshops <span style="color:#55A4DB;">&bull;</span></h3>
+            <ul class="faq-ul">
+                <li class="schedule-li">
+                    <button class="accordion schedule-but">February 2</button>
+                    <div class="panel schedule-panel">
+                        <h4 class="schedule-time"><span class="schedule-subheader">5-7pm: </span>Check in</h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">7-8:30pm: </span>Opening Ceremonies
+                            <span style="color:#FF0049;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">8:30pm: </span>Team Formation</h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">9-10pm: </span>Dinner <span
+                                style="color:#00FF00;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">10pm: </span>Hacking Starts</h4>
+                    </div>
+                </li>
+                <li class="schedule-li">
+                    <button class="accordion schedule-but">February 3</button>
+                    <div class="panel schedule-panel">
+                        <h4 class="schedule-time"><span class="schedule-subheader">1am: </span>Late Night Snacks <span
+                                style="color:#00FF00;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">9-10am: </span>Breakfast <span
+                                style="color:#00FF00;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">10:30-11:30am: </span>Capital One
+                            Keynote speech <span style="color:#FF0049;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">2-3pm: </span>Workshop A <span
+                                style="color:#55A4DB;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">3-4pm: </span>Lunch <span
+                                style="color:#00ff00;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">4-5pm: </span>Workshop B <span
+                                style="color:#00FF00;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">6-7pm: </span>Workshop C <span
+                                style="color:#55A4DB;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">7-8pm: </span>Snacks <span
+                                style="color:#00FF00;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">8-9pm: </span>Workshop D <span
+                                style="color:#55A4DB;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">9pm: </span>Cup Stacking <span
+                                style="color:#FF0049;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">9:30-11pm: </span>Dinner <span
+                                style="color:#00FF00;">&bull;</span></h4>
+                    </div>
+                </li>
+                <li class="schedule-li">
+                    <button class="accordion schedule-but">February 4</button>
+                    <div class="panel schedule-panel">
+                        <h4 class="schedule-time"><span class="schedule-subheader">1am: </span>Jackbox <span
+                                style="color:#FF0049;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">1-2am: </span>Snacks <span
+                                style="color:#00FF00;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">9-10am: </span>Breakfast <span
+                                style="color:#00FF00;">&bull;</span></h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">11am: </span>Hacking Ends</h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">12-3pm: </span>Judging Begins</h4>
+                        <h4 class="schedule-time"><span class="schedule-subheader">3:30-5pm: </span>Closing Ceremonies
+                            and Prizes <span style="color:#FF0049;">&bull;</span></h4>
+                    </div>
+                </li>
+            </ul>
+            <a class="download-a" href="./assets/ellehacks_schedual.pdf" download id="faq">
+                <h3 class="download-button">Download</h3>
+            </a>
+            <h2>FAQ<span class="backslash">/</span></h2>
+            <ul class="faq-ul">
+                <li class="faq-li">
+                    <button class="accordion">Why make an all-female hackathon?</button>
+                    <div class="panel">
+                        <p>Women are underrepresented in the tech world, but it’s up to us women to change that! We are
+                            creating a welcoming environment to show that there is a place in tech for every lady out
+                            there while building cool projects and sharing stories
+                            at ElleHacks.</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">Do I need to know how to code?</button>
+                    <div class="panel">
+                        <p>Students of all skill levels are encouraged to attend, even if you’ve never written a line of
+                            code. We’re prepared to teach you everything you need to learn right here while also
+                            supporting the most experienced hackers.</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">How do I become a volunteer?</button>
+                    <div class="panel">
+                        <p>Please register to be a volunteer <a class="school-list"
+                                                                href="https://docs.google.com/forms/d/e/1FAIpQLSdg625oODzMUOirZbU3gBVUCXovky1lyw8_CyuG_BDMSIKW4w/viewform">here</a>,
+                            we'd love to have you! Volunteers can be any gender, and are critical to ensure that
+                            ElleHacks operates smoothly. This year, we expect around 200 hackers, so we need all
+                            the help that we can get!</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">Where is the event?</button>
+                    <div class="panel">
+                        <p>ElleHacks 2018 will be held in the <a class="school-list" href="#event-section">Bergeron
+                            School of Engineering Excellence</a> at York University from February 2th-4th, 2018.</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">Who can attend ElleHacks?</button>
+                    <div class="panel">
+                        <p>Anyone who identifies as a woman or non-binary may register as a hacker! All ages are
+                            welcome. Additionally, all participants must follow the MLH <a class="school-list"
+                                                                                           href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code
+                                of Conduct.</a></p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">How do I become a mentor?</button>
+                    <div class="panel">
+                        <p>Please register to be a mentor <a class="school-list"
+                                                             href="https://docs.google.com/forms/d/e/1FAIpQLSeLPRlLOcj_X6F-EcYwIYq1LCNyrrTmhAVTL4Z9ZT0bHdUsMw/viewform">here</a>,
+                            we'd love to have you! Mentors can be any gender, and make the hackathon experience
+                            impactful by guiding participants through technical challenges and sharing stories along the
+                            way.</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">How do teams work?</button>
+                    <div class="panel">
+                        <p>You can work on a team or work solo. Teams can be constructed prior to arrival with friends,
+                            or can be formed during the time allocated for team formation before the official hacking
+                            begins. Team size must not exceed four members, according
+                            to MLH rules.</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">What should I bring?</button>
+                    <div class="panel">
+                        <p>You must bring a valid student or government issued ID card for admission. Bring your laptop,
+                            charging cables, and a sleeping bag/pillow if that makes you more comfortable for the night.
+                            We also recommend bringing toiletries and a change
+                            of clothes. Everything else will be provided!</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">Do you offer transportation or travel reimbursements?</button>
+                    <div class="panel">
+                        <p>Unfortunately, this year we will not be providing travel reimbursements. We do offer
+                            transportation to various universities around Ontario.</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">Is there a registration fee?</button>
+                    <div class="panel">
+                        <p>There is no registration fee.</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">When is the cut off date to register?</button>
+                    <div class="panel">
+                        <p>Jan 22 is the last day to register.</p>
+                    </div>
+                </li>
+                <!-- <li class="faq-li">
+                  <button class="accordion">How is the schedule structured?</button>
+                  <div class="panel">
+                    <p>We are in the midst of finalizing our schedule and we will post it on our website and social media pages by next week</p>
+                  </div>
+                </li> -->
+                <li class="faq-li">
+                    <button class="accordion">Do we require to be a student to participate as a team?</button>
+                    <div class="panel">
+                        <p>Under MLH code, participants are required to be students (highschool, university or college
+                            student) with at most 1.5 years grace period off school.</p>
+                    </div>
+                </li>
+                <li class="faq-li">
+                    <button class="accordion">Is it a 48-hour event? If yes, how’s the accommodation like?</button>
+                    <div class="panel">
+                        <p>Its a 32 hour event. We will be serving breakfast, lunch and dinner, and lots of snacks (all
+                            free)! We will have designated area for sleeping purposes, which students will bring their
+                            own sleeping bags to sleep. For hygienic purposes, we have included gifts in your tote bag
+                            and we also have a shower available if needed! (bring your toothbrush!)</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+</div>
+<!-- Sponsors Section -->
+<div class="sponsor-section" id="sponsor">
+    <h2>Past Sponsors<span class="backslash">/</span></h2>
+    <!-- Partners -->
+    <h3 class="sponsor-header">Partnered With</h3>
+    <div class="grid">
+        <div class="sponsor-holder-partner">
+            <a href="https://www.capitalone.ca/">
+                <img class="sponsor-img-partner" src="./assets/sponsors/partners/capital-one-logo.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="grid center-items">
+        <div class="sponsor-holder-partner">
+            <a href="http://lassonde.yorku.ca/">
+                <img class="sponsor-img-partner" src="./assets/sponsors/partners/lassonde-logo.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="grid center-items">
+        <div class="sponsor-holder-partner">
+            <a href="http://www.bestlassonde.ca/">
+                <img class="sponsor-img-partner" id="best-sponsor" src="./assets/sponsors/partners/BEST.png" alt="">
+            </a>
+        </div>
+        <div class="sponsor-holder-partner">
+            <a href="https://">
+                <img class="sponsor-img-partner" src="./assets/sponsors/partners/wise.png" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- Gold Sponsors -->
+    <h3 class="sponsor-header">Gold Sponsors</h3>
+    <div class="grid">
+        <div class="col horz">
+            <div class="sponsor-holder-gold">
+                <a href="http://shopify.com/">
+                    <img class="sponsor-img-gold" src="./assets/sponsors/gold/shopify-logo.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Silver Sponsors -->
+    <h3 class="sponsor-header">Silver Sponsors</h3>
+    <div class="grid">
+        <div class="col horz">
+            <div class="sponsor-holder-silver">
+                <a href="https://www.homedepot.ca/en/home.html">
+                    <img class="sponsor-img-silver" src="./assets/sponsors/silver/homedepot-logo.png" alt="">
+                </a>
+            </div>
+            <div class="sponsor-holder-silver">
+                <a href="https://www.td.com/ca/en/personal-banking/">
+                    <img class="sponsor-img-silver" src="./assets/sponsors/silver/td-logo.png" alt="">
+                </a>
+            </div>
+            <div class="sponsor-holder-silver">
+                <a href="https://www2.deloitte.com/ca/en.html">
+                    <img class="sponsor-img-silver" src="./assets/sponsors/silver/2000px-Deloitte.svg.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="col horz">
+            <div class="sponsor-holder-silver">
+                <a href="https://www.rbcroyalbank.com/">
+                    <img class="sponsor-img-silver" src="./assets/sponsors/silver/rbc-logo.png" alt="">
+                </a>
+            </div>
+            <div class="sponsor-holder-silver">
+                <a href="https://www.ibm.com/ca-en/">
+                    <img class="sponsor-img-silver" src="./assets/sponsors/silver/ibm-logo.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <h3 class="sponsor-header">Bronze Sponsors</h3>
+    <!-- Bronze Sponsors -->
+    <div class="grid">
+        <div class="col">
+            <div class="sponsor-holder-bronze">
+                <a href="https://awakechocolate.com/"><img class="sponsor-img-bronze"
+                                                           src="./assets/sponsors/bronze/awake_logo_new.png" alt=""></a>
+            </div>
+            <div class="sponsor-holder-bronze">
+                <a href="https://www.fdmgroup.com/en-ca/ca-home/"><img class="sponsor-img-bronze"
+                                                                       src="./assets/sponsors/bronze/FDM_Logo.JPG"
+                                                                       alt=""></a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="sponsor-holder-bronze">
+                <a href="https://www.cibc.com/en/personal-banking.html"><img class="sponsor-img-bronze"
+                                                                             src="./assets/sponsors/bronze/cibc.png"
+                                                                             alt=""></a>
+            </div>
+            <div class="sponsor-holder-bronze">
+                <a href="http://ca.rockstarenergy.com/"><img class="sponsor-img-bronze"
+                                                             src="./assets/sponsors/bronze/rockstar_logo.png"
+                                                             alt=""></a>
+            </div>
+
+            <div class="sponsor-holder-bronze">
+                <a href="https://mlh.io/"><img class="sponsor-img-bronze"
+                                               src="./assets/sponsors/bronze/mlh-logo-color.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="sponsor-holder-bronze">
+                <a href="https://github.com/"><img class="sponsor-img-bronze"
+                                                   src="./assets/sponsors/bronze/github-logo.png" alt=""></a>
+            </div>
+            <div class="sponsor-holder-bronze">
+                <a href="https://www.stickermule.com/ca"><img class="sponsor-img-bronze"
+                                                              src="./assets/sponsors/bronze/stickermule-logo.png"
+                                                              alt=""></a>
+            </div>
+        </div>
+    </div>
+    <h4 class="sponsor-wantto">Want to become a sponsor?</h4>
+    <a href="mailto:yorku.wise@gmail.com">
+        <button class="sign-up-form-button" type="button" name="button">Contact Us</button>
+    </a>
+</div>
+<!-- Event Section -->
+<div class="event-section background-grad" id="event-section">
+    <div class="grid">
+        <div class="col">
+            <div class="event-text">
+                <h2>Event<span class="backslash">/</span></h2>
+                <h4 class="event-subheader">ELLE/HACK</h4>
+                <h4 class="event-subheader event-underline">February 2-4, 2018</h4>
+                <h4 class="event-subheader after-underline">Bergeron Centre For Engineering Excellence</h4>
+                <h5 class="event-address">4700 Keele St.</h5>
+                <h5 class="event-address">11 Arboretum Lane</h5>
+                <h5 class="event-address">North York, ON, M3J 1P3</h5>
+            </div>
+        </div>
+        <div class="col-2 event-map">
+            <iframe width="100%" height="100%" frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCCtNwgmRGByTRqIA4BmJf2UIhfC7p8gFE&q=Bergeron+Centre+For+Engineering+Excellence"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<!-- Countdown Timer -->
+<div class="countdown-timer">
+    <!-- <div class="grid">
+      <div class="col">
+        <h4 id="days" class="countdown-clock"></span>
+        <h4 class="clock">Days</h4>
+      </div>
+      <div class="col">
+        <h4 id="hours" class="countdown-clock"></span>
+        <h4 class="clock">Hours</h4>
+      </div>
+      <div class="col">
+        <h4 id="minutes" class="countdown-clock"></span>
+        <h4 class="clock">Minutes</h4>
+      </div>
+      <div class="col">
+        <h4 id="seconds" class="countdown-clock"></span>
+        <h4 class="clock">Seconds</h4>
+      </div>
+      </div>
+    </div> -->
+    <h4 class="countdown-clock">Happy Hacking!</h4>
+</div>
+<!-- Contact Section -->
+<div class="contact-section" id="contact">
+    <h4 class="questions">Questions? Contact us at <a href="mailto:info@ellehacks.com">info@ellehacks.com</a></h4>
+    <div class="social-box">
+        <a href="https://www.facebook.com/ElleHacks-364051890675123/"><img src="./assets/icons/facebook-icon.png"
+                                                                           class="social-favicons" alt=""></a>
+        <a href="https://twitter.com/ellehacks"><img src="./assets/icons/twitter-icon.png" class="social-favicons"
+                                                     alt=""></a>
+        <a href="https://www.instagram.com/ellehacks/"><img src="./assets/icons/insta-icon.png" class="social-favicons"
+                                                            alt=""></a>
+    </div>
+</div>
+</body>
+<script src="./script.js" charset="utf-8"></script>
+
+</html>

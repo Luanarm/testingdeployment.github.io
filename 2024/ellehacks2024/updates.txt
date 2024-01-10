@@ -1,0 +1,124 @@
+<<<<<<< HEAD
+Dont forget to write down all of your updates 
+=======
+***************************
+        Update Log
+    ElleHacks Website
+***************************
+Updates As of 2023-02-10
+Updated by: Heet Narechania
+Added the Linked-In to the main website.
+
+Updates As of 2023-02-10
+Updated by: Heet Narechania
+Added the past sponser code to the sponsership website
+
+Updates As of 2023-02-10
+Updated by: Luana Ribeiro Madeira
+Added new sponsors to the hacker page
+
+Updates As of 2023-01-23
+Updated by: Anusha Narraidoo
+Fixed mobile Join-Us based on new figma mobile design
+Added Hacker/Mentor/Volunteer names to both web and mobile versions
+
+Updates As of 2023-01-23
+Updated by: Anusha Narraidoo
+fixed center alignment on landing page
+
+Updates As of 2023-01-19
+Updated by: Luana Ribeiro Madeira
+Fixed display issues with the contact us and location page
+
+Updates As of 2022-12-10
+Updated by: Luana Ribeiro Madeira
+Fixed Register + Faq page bugs
+Fixed width in the page
+Fixed contact-us being cutted to left
+linked nav to resgister, about us and faq page
+
+Updates As of 2022-12-04
+Updated by: Luana Ribeiro Madeira
+Added phtos from join us page to the Assest folder
+Added Join Us page html and css
+
+Updates As of 2022-11-24
+Updated by: Anusha Narraidoo
+Added //code image to images folder
+Redid About Us html and css section based on new design
+Waiting on slideshow images.
+
+Updates As of 2022-11-05
+Updated by: Anusha Narraidoo
+Created folder for images
+Added About Us section to majak html file and css
+Added font style link to file
+
+Updates As of 2022-10-21
+Updated by: Heet Narechania
+created trail html css file and made the folder
+Added skeleton structure in the file.
+
+Updates As of 2022-09-23
+Updated by: Aarushi Sabharwal
+created 2023site.html
+Added starter code for hosting on domain.
+
+Updates As of 2020-01-21
+Updated by: Leo Tran
+Added in the final sponsors.
+Added the schedule onto the website.
+Changed the register button and made it so that it moved the webpage further down.
+
+Updates As of 2020-01-15
+Updated by: Leo tran
+Added new logo images for sponsors.
+Increased the amount of sponsors in each section.
+
+Updates As of 2020-01-11
+Updated by: Leo tran
+Added new logo images for sponsors.
+Changed sponors within the website.
+    - Removed/Updated sponsors.
+
+Updates As of 2019-12-01
+Updated by: Leo Tran
+Added google analytics onto the webpage so that we can collect data to optimize the website.
+Added restrictions to html and body so that there is no excess scrollbar in mobile view:
+    - Added styles that would change the html and body tags so that overflow within the
+    x-axis was hidden.
+Added old leaves back, resized to reduce lag:
+    - Changes were made in index.html regarding the set divs for the images.
+Changed the sizes for background words "Inspire" and "Change":
+    - Made it so that as the user minimized the webpage the font-size would
+    adjust according.
+    - Added the color-title-background to the @media section with max-width: 991px
+    within the CSS files elle-hacks-10.css and elle-hacks.css.
+
+Updates As of 2019-11-28
+Updated by: Leo Tran
+Nothing major, I just learned about forking and such for github and so I took
+the work that I did and reuploaded it.
+Removed two leaf images:
+    - This means six leaf objects were removed.
+    - They were removed because leafSize forcefully altered it's size
+    causing animation lag issues at the start.
+    - We can either readd them later but downscale them or find new ones instead.
+
+Updates As Of 2019-11-27:
+Updated by: Leo Tran
+Completely changed the colors of the website from blue to orange.
+Added in animation.css which includes:
+    - Animation effects for leaves and buttons.
+    - Animation effects "should" be supported on all browsers, there are three variations.
+    - UnselectableImage class which makes it so applied objects aren't highlighted.
+Added leaf animation within the hero-container section:
+    - Three different set of images creating a laying effect of leaves falling.
+Added button bounce animations for the social media and email buttons at footer section:
+    - Attached class onto each object, more information is within the animation.css file.
+Adjusted the image section for hackers, volunteers, and mentors:
+    - Changed ratios of images
+    - Added new class(w-col-13) within components.css for new ratios
+Changed colors for background words "Inspire" and "Change":
+    - Adjusted colors within elle-hacks.css and elle-hacks-10.css (unsure of the difference between each file as it was created by the previous developer).
+>>>>>>> 8498b78810bde5111d6f172200b11dee345edf89
