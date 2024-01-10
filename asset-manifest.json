@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.286ae8fe.css",
+    "main.js": "./static/js/main.1f98be9a.js",
+    "static/js/787.cc2aee18.chunk.js": "./static/js/787.cc2aee18.chunk.js",
+    "static/media/ElleHacks2024-06.jpg": "./static/media/ElleHacks2024-06.37e22afdf27a129fe56e.jpg",
+    "static/media/ElleHacks2024-02.jpg": "./static/media/ElleHacks2024-02.6c16576a8a44bacf721d.jpg",
+    "static/media/logo.png": "./static/media/logo.2923bc2199213c5ae350.png",
+    "static/media/ElleHacks2024-07.jpg": "./static/media/ElleHacks2024-07.2113049780186873a98e.jpg",
+    "static/media/ElleHacks2024-01.jpg": "./static/media/ElleHacks2024-01.cc27eb58e7c2b47a01dc.jpg",
+    "static/media/ElleHacks2024-11.jpg": "./static/media/ElleHacks2024-11.61032dd6092445cbe873.jpg",
+    "static/media/ElleHacks2024-09.jpg": "./static/media/ElleHacks2024-09.6100edcdefc6bc90cf79.jpg",
+    "static/media/ElleHacks2024-10.jpg": "./static/media/ElleHacks2024-10.3678a34495653ce23001.jpg",
+    "static/media/ElleHacks2024-04.jpg": "./static/media/ElleHacks2024-04.c79a38a9c593ae8dd19d.jpg",
+    "static/media/ElleHacks2024-05.jpg": "./static/media/ElleHacks2024-05.61a7f81adba255e33c6b.jpg",
+    "static/media/ElleHacks2024-03.jpg": "./static/media/ElleHacks2024-03.27924e51da6e32adcd1c.jpg",
+    "static/media/ElleHacks2024-08.jpg": "./static/media/ElleHacks2024-08.5aaa9cac7722cadeb63e.jpg",
+    "static/media/Red.png": "./static/media/Red.9e061e9d8fe9c5a93cc3.png",
+    "static/media/Yellow.png": "./static/media/Yellow.ec1efa4685389e71d1f1.png",
+    "static/media/Green.png": "./static/media/Green.546cffc568cfb81a1c8c.png",
+    "static/media/Simplification.png": "./static/media/Simplification.f116b67c5833bf32121b.png",
+    "index.html": "./index.html",
+    "main.286ae8fe.css.map": "./static/css/main.286ae8fe.css.map",
+    "main.1f98be9a.js.map": "./static/js/main.1f98be9a.js.map",
+    "787.cc2aee18.chunk.js.map": "./static/js/787.cc2aee18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.286ae8fe.css",
+    "static/js/main.1f98be9a.js"
+  ]
+}
